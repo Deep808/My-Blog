@@ -150,7 +150,6 @@ section {
 
 .sidebar {
   flex: 1;
-  /* background-color: #f0f0f0; */
   padding: 20px;
 }
 
@@ -168,7 +167,6 @@ section {
   color: #333;
 }
 
-/* Navigation bar styles */
 header nav {
   margin-top: 10px;
 }
