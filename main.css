@@ -123,7 +123,6 @@ section {
 
 .sidebar {
   flex: 1;
-  /* background-color: #f0f0f0; */
   padding: 20px;
 }
 
@@ -144,4 +143,28 @@ section {
 /* Navigation bar styles */
 header nav {
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    flex-direction: column;
+    /* background-color: #8ecc4c; */
+  }
+
+  img {
+    width: 35em;
+    margin: 0 auto 2em auto;
+  }
+  .welcome {
+    max-width: 100%;
+  }
+
+  .desc-wrapper p {
+    width: 140%;
+  }
+
+  .sidebar {
+    padding: 0%;
+    margin-top: 1em;
+  }
 }
