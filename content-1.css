@@ -176,3 +176,157 @@ section {
 header nav {
   margin-top: 10px;
 }
+
+@media only screen and (max-width: 1400px) {
+  main {
+    /* flex-direction: column; */
+    max-width: 100%;
+  }
+
+  article {
+    max-width: 50%;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    flex-direction: column;
+    max-width: 90%;
+    justify-content: center;
+  }
+
+  article {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .left-container {
+    display: flex;
+    margin: 8em auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-title {
+    width: 100%;
+    align-items: center;
+  }
+
+  .image-title img {
+    width: 8em;
+    object-fit: contain;
+  }
+
+  header {
+    width: 100%;
+  }
+  main {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 auto 2em auto;
+  }
+  .welcome {
+    max-width: 100%;
+  }
+
+  .desc-wrapper p {
+    width: auto;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+  }
+
+  .sidebar {
+    padding: 0%;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    max-width: 80%;
+  }
+
+  article {
+    margin-left: 0;
+  }
+
+  .image-title {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .left-container {
+    flex-direction: column;
+    margin: 4em auto;
+  }
+
+  .image-title img {
+    width: 5em;
+    object-fit: contain;
+  }
+
+  header {
+    width: 100%;
+  }
+  main {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 auto 2em auto;
+  }
+  .welcome {
+    max-width: 100%;
+  }
+
+  .desc-wrapper p {
+    width: auto;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+  }
+
+  .sidebar {
+    padding: 0%;
+    margin-top: 1em;
+  }
+}
+
+/* @media only screen and (max-width: 480px) {
+  header {
+    background-color: #656b5f;
+    width: 100%;
+  }
+
+  .welcome {
+    font-size: larger;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 17em;
+    margin: 1em auto;
+  }
+} */
