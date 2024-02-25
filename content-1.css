@@ -309,24 +309,3 @@ header nav {
     margin-top: 1em;
   }
 }
-
-/* @media only screen and (max-width: 480px) {
-  header {
-    background-color: #656b5f;
-    width: 100%;
-  }
-
-  .welcome {
-    font-size: larger;
-  }
-
-  .content-wrapper {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  img {
-    width: 17em;
-    margin: 1em auto;
-  }
-} */
